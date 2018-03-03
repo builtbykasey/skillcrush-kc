@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kasey Markham</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"> -->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link type="text/css" rel="stylesheet" href="./css/style.css">
     </head>
@@ -22,7 +23,7 @@
 
             <div class="navbar-header">
                 <!-- Logo -->
-                <a class="navbar-brand" href="" id="home-link">
+                <a class="navbar-brand home-link" href="">
                     Kasey Markham
                 </a>
 
@@ -35,121 +36,160 @@
 
             <!-- Nav Links -->
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="" id="projects-link">Projects</a></li>
-                    <li><a href="" id="about-link">About</a></li>
-                    <li><a href="" id="blog-link">Blog</a></li>
-                    <li><a href="" id="resume-link">Resume</a></li>
-                    <li><a href="" id="contact-link">Contact</a></li>
-                </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="" class="heart-link">Heart</a></li>
+                <li><a href="" class="about-link">About</a></li>
+                <li><a href="" class="projects-link">Projects</a></li>
+                <li><a href="" class="resume-link">Resume</a></li>
+                <li><a href="" class="blog-link">Blog</a></li>
+                <li><a href="" class="contact-link">Connect</a></li>
+              </ul>
             </div>
 
         </nav>
 
-        <!-- <div class="hero-content"> -->
-          <div class="hero-full-stack animated fadeIn">
-            <h1>Full Stack Developer</h1>
-          </div>
+        <div class="name-header">
+          Kasey Markham
+        </div>
+        <!-- Hero -->
+        <div class="hero-front-end animated fadeIn">
+          <h1>Front End</h1>
           <div class="hero-skills animated fadeIn">
             <div class="html animated fadeIn">
-              <!-- <p>HTML</p> -->
               <img src="assets/html2.png">
             </div>
             <div class="css animated fadeIn">
-              <!-- <p>CSS</p> -->
               <img src="assets/css2.png">
             </div>
             <div class="javascript animated fadeIn">
-              <!-- <p>JAVASCRIPT</p> -->
               <img src="assets/javascript.png">
             </div>
-            <div class="angular animated fadeIn">
-              <!-- <p>ANGULAR</p> -->
-              <img src="assets/angular.png">
-            </div>
+          </div>
+        </div>
+        <div class="hero-developer animated fadeIn">
+          <h1>Developer</h1>
+          <div class="hero-skills animated fadeIn">
             <div class="ruby animated fadeIn">
-              <!-- <p>RUBY</p> -->
               <img src="assets/ruby.png">
             </div>
             <div class="rails animated fadeIn">
-              <!-- <p>RAILS</p> -->
               <img src="assets/rails.png">
             </div>
           </div>
+        </div>
+
+        <!-- <div class="hero-content"> -->
+          <!-- <div class="hero-full-stack animated fadeIn">
+            <h1>Front End Developer</h1>
+          </div>
+          <div class="hero-skills animated fadeIn">
+            <div class="html animated fadeIn">
+              <img src="assets/html2.png">
+            </div>
+            <div class="css animated fadeIn">
+              <img src="assets/css2.png">
+            </div>
+            <div class="javascript animated fadeIn">
+              <img src="assets/javascript.png">
+            </div>
+            <div class="angular animated fadeIn">
+              <img src="assets/angular.png">
+            </div>
+            <div class="ruby animated fadeIn">
+              <img src="assets/ruby.png">
+            </div>
+            <div class="rails animated fadeIn">
+              <img src="assets/rails.png">
+            </div>
+          </div> -->
         <!-- </div> -->
     </div>
 
-    <!-- Projects -->
-    <div class="container projects-section" id="projects">
+    <!-- Reccomendations -->
+    <div class="container referrals-section" id="heart">
         <div class="container">
-            <h1 class="section-heading">Projects</h1>
+            <h1 class="section-heading">With a Heart</h1>
         </div>
 
-        <div class="container projects-wrapper">
-            <div class="row projects-row">
-                <div class="col-md-8">
-                    <div class="projects-content-box">
-                      <span class="project-title">Brewpedia</span>
-                      <p class="projects-paragraph">Brewpedia is a SaaS wiki collaboration tool built using Ruby on Rails. Standard users can create public wikis while premium users can create and collaborate on private wikis.</p>
-                      <span class="tech-title">Technology Used:</span>
-                      <p class="tech-used">Ruby on Rails, Stripe, Devise, Pundit, Figaro, Redcarpet and Faker.</p>
-                      <div class="project-buttons">
-                        <a class="github-button" href="https://github.com/builtbykasey/blocipedia" target="_blank">View Project</a>
-                      </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="assets/brewpedia-showcase.jpg" class="img-responsive">
-                </div>
-            </div>
-            <div class="row projects-row middle">
-                <div class="col-md-4">
-                    <img src="assets/code-chatter.png" class="img-responsive">
-                </div>
-                <div class="col-md-8">
-                    <div class="projects-content-box middle">
-                      <span class="project-title">Code-Chatter</span>
-                      <p class="projects-paragraph">Code-Chatter is a Slack inspired messaging application built with AngularJS and Firebase. Users can create chat rooms and send/receive messages real time.</p>
-                      <span class="tech-title">Technology Used:</span>
-                      <p class="tech-used">AngularJS and Firebase.</p>
-                      <div class="project-buttons">
-                        <a class="github-button" href="https://github.com/builtbykasey/bloc-chat" target="_blank">View Project</a>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row projects-row">
+        <div class="container referrals-wrapper">
+            <div class="row referrals-row">
               <div class="col-md-8">
-                  <div class="projects-content-box">
-                    <span class="project-title">Kele API Client Gem</span>
-                    <p class="projects-paragraph">Kele is an API Client Gem built to access the student endpoints of Bloc's REST API. Students can access mentor availability, send/receive messages and submit checkpoints for work completed.</p>
-                    <span class="tech-title">Technology Used:</span>
-                    <p class="tech-used">Ruby, HTTParty Gem and JSON Gem.</p>
-                    <div class="project-buttons">
-                      <a class="github-button" href="https://github.com/builtbykasey/kele" target="_blank">View Project</a>
-                    </div>
+                  <div class="ref-content">
+                    <i class="fas fa-quote-left"></i>
+                    <span class="referral">Brewpedia is a SaaS wiki collaboration tool built using Ruby on Rails. Standard users can create public wikis while premium users can create and collaborate on private wikis.</span>
+                    <i class="fas fa-quote-right"></i>
                   </div>
               </div>
-                <div class="col-md-4">
-                    <img src="assets/kele-gem.png" class="img-responsive">
+
+              <div class="col-md-4 ref-image">
+                <img src="assets/ty.jpg" class="img-responsive">
+                <div class="ref-link">
+                  <a href="https://www.linkedin.com/in/tyler-sera-25744382/" target="_blank">Tyler Sera</a>
                 </div>
+                <div class="ref-relationship">
+                  <p>Intern turned Team Member</p>
+                </div>
+              </div>
             </div>
-            <div class="row projects-row middle">
-                <div class="col-md-4">
-                  <img src="assets/bloccit-showcase.jpg" class="img-responsive">
+
+            <div class="row referrals-row middle">
+              <div class="col-md-4 ref-image">
+                <img src="assets/liz.jpg" class="img-responsive">
+                <div class="ref-link">
+                  <a href="https://www.linkedin.com/in/elizabeth-hails-72756bba/" target="_blank">Elizabeth Hails</a>
                 </div>
-                <div class="col-md-8">
-                  <div class="projects-content-box middle">
-                    <span class="project-title">Bloccit</span>
-                    <p class="projects-paragraph">Bloccit is a Reddit inspired application built with Ruby on Rails. Users can sign up, create posts, comment on posts, vote on posts, favorite posts and  receive updates on their favorite posts via email.</p>
-                    <span class="tech-title">Technology Used:</span>
-                    <p class="tech-used">Ruby on Rails, RSpec, SendGrid,  Figaro and FactoryGirl.</p>
-                    <div class="project-buttons">
-                      <a class="github-button" href="https://github.com/builtbykasey/bloccit" target="_blank">View Project</a>
-                    </div>
+                <div class="ref-relationship">
+                  <p>Team Member</p>
+                </div>
+              </div>
+
+              <div class="col-md-8">
+                <div class="ref-content">
+                  <i class="fas fa-quote-left"></i>
+                  <span class="referral">Kasey always took the time to put herself in my shoes so she could explain things in a way that I'd fully understand. Her commitment to "setting me up for success" made her the best mentor and teacher I've ever had.</span>
+                  <i class="fas fa-quote-right"></i>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row referrals-row">
+              <div class="col-md-8">
+                  <div class="ref-content">
+                    <i class="fas fa-quote-left"></i>
+                    <span class="referral">Brewpedia is a SaaS wiki collaboration tool built using Ruby on Rails. Standard users can create public wikis while premium users can create and collaborate on private wikis.</span>
+                    <i class="fas fa-quote-right"></i>
                   </div>
+              </div>
+
+              <div class="col-md-4 ref-image">
+                <img src="assets/george.jpg" class="img-responsive">
+                <div class="ref-link">
+                  <a href="https://www.linkedin.com/in/georgeroque/" target="_blank">George Roque</a>
                 </div>
+                <div class="ref-relationship">
+                  <p>Intern turned Team Member</p>
+                </div>
+              </div>
+            </div>
+            <div class="row referrals-row middle">
+              <div class="col-md-4 ref-image">
+                <img src="assets/rob.jpg" class="img-responsive">
+                <div class="ref-link">
+                  <a href="https://www.linkedin.com/in/rwclayton/" target="_blank">Rob Clayton</a>
+                </div>
+                <div class="ref-relationship">
+                  <p>Team Member</p>
+                </div>
+              </div>
+
+              <div class="col-md-8">
+                <div class="ref-content">
+                  <i class="fas fa-quote-left"></i>
+                  <span class="referral">Brewpedia is a SaaS wiki collaboration tool built using Ruby on Rails. Standard users can create public wikis while premium users can create and collaborate on private wikis.</span>
+                  <i class="fas fa-quote-right"></i>
+                </div>
+              </div>
             </div>
         </div>
     </div>
@@ -178,6 +218,119 @@
         </div>
     </div>
 
+    <!-- Projects -->
+    <div class="container projects-section" id="projects">
+        <div class="container">
+            <h1 class="section-heading">Projects</h1>
+        </div>
+
+        <div class="container projects-wrapper">
+            <div class="row projects-row">
+                <div class="col-md-8">
+                    <div class="projects-content-box">
+                      <!-- <span class="project-title">SpringTodo</span> -->
+                      <a class="project-title" href="https://github.com/builtbykasey/spring-todo" target="_blank">SpringTodo</a>
+                      <p class="projects-paragraph">SpringTodo was an interview project built as a single page application using vanilla Javascript. The required features included being able to add/remove tasks and having a modal popup when 5 tasks are added. I added features to mark/unmark tasks completed, to move tasks between "to do" and "completed" lists and pop up a modal when 5 tasks are completed.
+                      </p>
+                      <span class="tech-title">Technology Used:</span>
+                      <p class="tech-used">HTML, CSS, vanilla JavaScript, ZURB Foundation and LocalStorage.</p>
+                      <!-- <div class="project-buttons">
+                        <a class="github-button" href="https://github.com/builtbykasey/spring-todo" target="_blank">View Project</a>
+                      </div> -->
+                    </div>
+                </div>
+
+                <div class="col-md-4 project-image">
+                  <img src="assets/springtodo.jpg" class="img-responsive">
+                  <span class="project-date">September 2017</span>
+                </div>
+            </div>
+            <div class="row projects-row middle">
+                <div class="col-md-4 project-image">
+                  <img src="assets/rws.jpg" class="img-responsive">
+                  <span class="project-date">July 2017</span>
+                </div>
+                <div class="col-md-8">
+                    <div class="projects-content-box middle">
+                      <span class="project-title">RWS Custom Website</span>
+                      <p class="projects-paragraph"> The RWS website was custom designed and built to showcase the uniqueness of this boutique wealth management firm.</p>
+                      <span class="tech-title">Technology Used:</span>
+                      <p class="tech-used">HTML, CSS, Javascript/jQuery and Bootstrap.</p>
+                      <!-- <div class="project-buttons">
+                        <a class="github-button" href="https://github.com/builtbykasey/rws-website" target="_blank">View Project</a>
+                      </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row projects-row">
+              <div class="col-md-8">
+                  <div class="projects-content-box">
+                    <span class="project-title">Brewpedia</span>
+                    <p class="projects-paragraph">Brewpedia is a SaaS wiki collaboration tool built using Ruby on Rails. Standard users can create public wikis while premium users can create and collaborate on private wikis.</p>
+                    <span class="tech-title">Technology Used:</span>
+                    <p class="tech-used">Ruby on Rails, Stripe, Devise, Pundit, Figaro, Redcarpet and Faker.</p>
+                    <!-- <div class="project-buttons">
+                      <a class="github-button" href="https://github.com/builtbykasey/blocipedia" target="_blank">View Project</a>
+                    </div> -->
+                  </div>
+              </div>
+
+              <div class="col-md-4 project-image">
+                  <img src="assets/brewpedia-showcase.jpg" class="img-responsive">
+                  <span class="project-date">June 2017</span>
+              </div>
+            </div>
+            <div class="row projects-row middle">
+                <div class="col-md-4 project-image">
+                  <img src="assets/match-game.jpg" class="img-responsive">
+                  <span class="project-date">March 2017</span>
+                </div>
+                <div class="col-md-8">
+                  <div class="projects-content-box middle">
+                    <span class="project-title">Match Game</span>
+                    <p class="projects-paragraph">Classic match game built with HTML, CSS, Javascript/jQuery and Bootstrap.</p>
+                    <span class="tech-title">Technology Used:</span>
+                    <p class="tech-used">HTML, CSS, Javascript/jQuery and Bootstrap.</p>
+                    <!-- <div class="project-buttons">
+                      <a class="github-button" href="https://github.com/builtbykasey/match-game" target="_blank">View Project</a>
+                    </div> -->
+                  </div>
+                </div>
+            </div>
+
+            <div class="row projects-row">
+
+              <div class="col-md-8">
+                  <div class="projects-content-box">
+                    <span class="project-title">Code-Chatter</span>
+                    <p class="projects-paragraph">Code-Chatter is a Slack inspired messaging application built with AngularJS and Firebase. Users can create chat rooms and send/receive messages real time.</p>
+                    <span class="tech-title">Technology Used:</span>
+                    <p class="tech-used">AngularJS and Firebase.</p>
+                    <!-- <div class="project-buttons">
+                      <a class="github-button" href="https://github.com/builtbykasey/bloc-chat" target="_blank">View Project</a>
+                    </div> -->
+                  </div>
+              </div>
+
+              <div class="col-md-4 project-image">
+                  <img src="assets/code-chatter.png" class="img-responsive">
+                  <span class="project-date">February 2017</span>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume -->
+    <div class="resume-section" id="resume">
+        <div class="container resume-container">
+          <h1 class="resume-text">Need a printable version?</h1>
+          <div class="resume-button">
+            <a href="https://drive.google.com/open?id=0B1IsFZBfnN5-cFBPb1M5Z3VqSlk" target="_blank">Download Resume</a>
+          </div>
+        </div>
+
+    </div>
+
     <!-- Blog -->
 
     <div class="container blog-section" id="blog">
@@ -196,51 +349,45 @@
         </div>
 
         <div class="blog-more">
-          <p><a href="https://medium.com/@builtbykasey" target="_blank">See More Articles</a></p>
+          <p><a href="https://medium.com/@builtbykasey" target="_blank">More Articles</a></p>
         </div>
         <div id="resume"></div>
     </div>
 
-    <!-- Resume -->
-    <div class="resume-section" id="resume">
-        <div class="container resume-container">
-          <h1 class="resume-text">Need a printable version?</h1>
-          <div class="resume-button">
-            <a href="https://drive.google.com/open?id=0B1IsFZBfnN5-cFBPb1M5Z3VqSlk" target="_blank">Download Resume</a>
-          </div>
-        </div>
 
-    </div>
 
     <!-- Contact -->
     <div class="container contact-section" id="contact">
         <div class="container" >
-          <h1 class="section-heading">Contact</h1>
+          <h1 class="section-heading">Let's Connect!</h1>
 
           <div class="row contact-row">
+
+            <div class="contact-text">
+
+              <div class="social-icons">
+                <a href="mailto:kasey@kaseymarkham.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/builtbykasey" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+
             <div class="headshot">
               <img src="assets/self2-blur.png" class="img-responsive">
             </div>
 
             <div class="contact-text">
-              <div class="learn-more">
-                Let's Connect!
-              </div>
+
               <div class="social-icons">
-                <a href="mailto:kasey@kaseymarkham.com">
-                    <i class="fa fa-envelope"></i>
-                </a>
-                <a href="https://twitter.com/builtbykasey" target="_blank">
-                    <i class="fa fa-twitter"></i>
                 </a>
                 <a href="https://linkedin.com/in/kaseymarkham" target="_blank">
-                    <i class="fa fa-linkedin"></i>
+                    <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a href="https://github.com/builtbykasey" target="_blank">
-                    <i class="fa fa-github"></i>
-                </a>
-                <a href="https://medium.com/@builtbykasey" target="_blank">
-                    <i class="fa fa-medium"></i>
+                <a href="https://twitter.com/builtbykasey" target="_blank">
+                    <i class="fab fa-twitter"></i>
                 </a>
               </div>
             </div>
@@ -253,40 +400,43 @@
     <div class="container" id="footer">
         <div class="row footer-row">
             <div class="col-md-3">
-                <h3 class="footer-logo">Kasey Markham</h3>
+              <!-- <h3 class="footer-logo">Kasey Markham</h3> -->
+              <a class="footer-logo home-link" href="">Kasey Markham</a>
+              <div class="copyright">
+                &copy; Kasey Markham 2018
+              </div>
             </div>
 
             <div class="col-md-6">
-                <div class="footer-nav">
-                    <ul>
-                      <li><a href="#projects">Projects</a></li>
-                      <li><a href="#about">About</a></li>
-                      <li><a href="#blog">Blog</a></li>
-                      <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+              <div class="footer-nav">
+                <ul>
+                  <li><a href="" class="heart-link">Heart</a></li>
+                  <li><a href="" class="about-link">About</a></li>
+                  <li><a href="" class="projects-link">Projects</a></li>
+                  <li><a href="" class="resume-link">Resume</a></li>
+                  <li><a href="" class="blog-link">Blog</a></li>
+                  <li><a href="" class="contact-link">Connect</a></li>
+                </ul>
+              </div>
             </div>
 
             <div class="col-md-3">
                 <div id="social">
                   <a href="mailto:kasey@kaseymarkham.com">
-                      <i class="fa fa-envelope"></i>
-                  </a>
-                  <a href="https://twitter.com/builtbykasey" target="_blank">
-                      <i class="fa fa-twitter"></i>
-                  </a>
-                  <a href="https://linkedin.com/in/kaseymarkham" target="_blank">
-                      <i class="fa fa-linkedin"></i>
+                      <i class="fas fa-envelope"></i>
                   </a>
                   <a href="https://github.com/builtbykasey" target="_blank">
-                      <i class="fa fa-github"></i>
+                      <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://linkedin.com/in/kaseymarkham" target="_blank">
+                      <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://twitter.com/builtbykasey" target="_blank">
+                      <i class="fab fa-twitter"></i>
                   </a>
                   <a href="https://medium.com/@builtbykasey" target="_blank">
-                      <i class="fa fa-medium"></i>
+                      <i class="fab fa-medium-m"></i>
                   </a>
-                </div>
-                <div class="copyright">
-                  &copy; Kasey Markham 2017
                 </div>
             </div>
         </div>

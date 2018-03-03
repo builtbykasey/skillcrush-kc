@@ -1,39 +1,46 @@
-$("#home-link").click(function() {
+$(".home-link").click(function() {
     $('html, body').animate({
         scrollTop: $("#home").offset().top
     }, 1200);
     return false;
 });
 
-$("#projects-link").click(function() {
+$(".heart-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#heart").offset().top
+    }, 1200);
+    return false;
+});
+
+$(".projects-link").click(function() {
     $('html, body').animate({
         scrollTop: $("#projects").offset().top
     }, 1200);
     return false;
 });
 
-$("#about-link").click(function() {
+$(".about-link").click(function() {
     $('html, body').animate({
         scrollTop: $("#about").offset().top
     }, 1200);
     return false;
 });
 
-$("#blog-link").click(function() {
+$(".blog-link").click(function() {
     $('html, body').animate({
         scrollTop: $("#blog").offset().top
     }, 1200);
     return false;
 });
 
-$("#resume-link").click(function() {
+$(".resume-link").click(function() {
     $('html, body').animate({
         scrollTop: $("#resume").offset().top
     }, 1200);
     return false;
 });
 
-$("#contact-link").click(function() {
+$(".contact-link").click(function() {
     $('html, body').animate({
         scrollTop: $("#contact").offset().top
     }, 1200);
@@ -94,7 +101,7 @@ $(function () {
   				output += '<div class="blog-post">';
           output += '<div class="blog-content"><div class="post-title"><a href="'+ item.link + '" target="_blank">' + item.title + '</a></div>';
   				var yourString = item.description.replace(/<img[^>]*>/g,"");
-  				var maxLength = 120
+  				var maxLength = 175
   				var trimmedString = yourString.substr(0, maxLength);
   				trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
   				output += '<p>' + trimmedString + '...</p>';
