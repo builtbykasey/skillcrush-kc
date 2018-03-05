@@ -1,6 +1,6 @@
 $(".scroll-link").click(function() {
     $('html, body').animate({
-        scrollTop: $element.data('scroll).offset().top
+        scrollTop: $element.data('scroll').offset().top
     }, 1200);
     return false;
 });
