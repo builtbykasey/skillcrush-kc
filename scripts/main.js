@@ -1,11 +1,8 @@
-console.log($('.projects-link').data('projects'))
-
-$(".home-link").click(function() {
+$(".trigger-link").click(function() {
   var target = $(event.target).data('scroll')
   $('html, body').animate({
     scrollTop: $(target).offset().top
   }, 1200);
-  console.log($(event.target).data('scroll'))
   return false;
 });
 
