@@ -1,9 +1,12 @@
-$(".scroll-link").click(function() {
-    $('html, body').animate({
-        scrollTop: $element.data('scroll').offset().top
-    }, 1200);
-	console.log $element.data('scroll')
-    return false;
+console.log($('.projects-link').data('projects'))
+
+$(".home-link").click(function() {
+  var target = $(event.target).data('scroll')
+  $('html, body').animate({
+    scrollTop: $(target).offset().top
+  }, 1200);
+  console.log($(event.target).data('scroll'))
+  return false;
 });
 
 $(".heart-link").click(function() {
@@ -59,15 +62,9 @@ var $document = $(document),
 $document.scroll(function() {
   if ($document.scrollTop() >= 100) {
     //user scrolled more than 100 pixels
-    $element.addClass(navbarDefault);
-    $element.removeClass(navbarTransparent);
-
-    $element.addClass(fadeInDown);
+    $element.addClass(navbarDefault).removeClass(navbarTransparent).addClass(fadeInDown);
   } else {
-    $element.addClass(navbarTransparent);
-    $element.removeClass(navbarDefault);
-
-    $element.removeClass(fadeInDown);
+    $element.addClass(navbarTransparent).removeClass(navbarDefault).removeClass(fadeInDown);
   }
 });
 
