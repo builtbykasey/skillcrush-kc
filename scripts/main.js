@@ -2,6 +2,7 @@ $(".scroll-link").click(function() {
     $('html, body').animate({
         scrollTop: $element.data('scroll').offset().top
     }, 1200);
+	console.log $element.data('scroll')
     return false;
 });
 
