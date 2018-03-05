@@ -1,8 +1,8 @@
 # Kasey Colleen Portfolio
 
-### Custom Full Stack Developer Portfolio
+### Custom Front End Developer Portfolio for Skillcrush Front End Teaching Assistant Position
 
-[Live Site](http://www.kaseycolleen.com/)
+[Live Site](http://www.skillcrush.kaseymarkham.com/)
 
 ## Project Objectives
 
