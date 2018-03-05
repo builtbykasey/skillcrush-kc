@@ -8,11 +8,11 @@ $(".trigger-link").click(function() {
 
 // If user scrolls, change transparent menus to default menus
 var $document = $(document),
-    $element = $('.navbar'),
-    navbarDefault = 'navbar-default';
-    navbarTransparent = 'navbar-transparent';
+	$element = $('.navbar'),
+	navbarDefault = 'navbar-default';
+	navbarTransparent = 'navbar-transparent';
 
-    fadeInDown = 'fadeInDown';
+	fadeInDown = 'fadeInDown';
 
 $document.scroll(function() {
   if ($document.scrollTop() >= 100) {
