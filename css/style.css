@@ -249,11 +249,10 @@ html, body {
   background-color: #fff;
   display: flex;
   align-items: center;
-  border-top: 1px solid rgba(232,53,86,0.25);
   border-bottom: 1px solid rgba(232,53,86,0.25);
 }
 
-.referrals-row:first-child, .referrals-row:last-child {
+.referrals-row:last-child {
   border: none;
 }
 
@@ -391,11 +390,10 @@ html, body {
   background-color: #fff;
   display: flex;
   align-items: center;
-  border-top: 1px solid rgba(232,53,86,0.25);
   border-bottom: 1px solid rgba(232,53,86,0.25);
 }
 
-.projects-row:first-child, .projects-row:last-child {
+.projects-row:last-child {
   border: none;
 }
 
@@ -787,7 +785,7 @@ html, body {
   }
 
   .hero h1 {
-    font-size: 1.75rem;
+    font-size: 2srem;
     margin-left: auto;
     margin-right: auto;
     padding-top: 4srem;
@@ -812,12 +810,97 @@ html, body {
 
   /* Headings */
   .section-heading {
+    font-size: 2rem;
+  }
+
+  /* Heart */
+  #heart {
+    width: 100%;
+    padding: 6rem 0 4rem 0;
+    background-color: #fff;
+    color: #61d1d5;
+  }
+
+  .heart-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heart-heading {
+    margin: 0
+  }
+
+  .wink-face {
+    max-height: 40px;
+    margin: .5rem 0 0 0;
+  }
+
+  .referrals-row {
+    margin: 0;
+    padding: 3rem 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-bottom: 1px solid rgba(232,53,86,0.25);
+  }
+
+  .referrals-row.middle {
+    flex-direction: column;
+  }
+
+  .referrals-row:last-child {
+    border: none;
+  }
+
+  .ref-content .fas {
+    color: #61d1d5;
+  }
+
+  .ref-content {
+    margin: 0;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
+  }
+
+  .ref-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .ref-image img {
+    max-width: 75px;
+    border-radius: 50%;
+  }
+
+  .ref-link {
+    margin: .5rem 0 0 0;
+  }
+
+  .ref-link a {
+    color: #e83556;
+    font-size: 1.25rem;
+  }
+
+  .ref-link a:hover {
+    text-decoration: none;
+    color: #61d1d5;
+  }
+
+  .ref-relationship {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
   }
 
   /* Projects */
   .projects-section {
-      padding: 6rem 0;
+      padding: 6rem 0 4rem 0;
   }
 
   .projects-wrapper {
@@ -853,7 +936,7 @@ html, body {
   }
 
   .project-title {
-    font-size: 2.35rem;
+    font-size: 2rem;
   }
 
   .projects-paragraph {
@@ -861,7 +944,7 @@ html, body {
   }
 
   .tech-title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .tech-used {
@@ -904,6 +987,7 @@ html, body {
     font-size: 1.25rem;
     letter-spacing: .5px;
     line-height: 2.1rem;
+    text-align: center;
   }
 
   .story-paragraph {
@@ -916,13 +1000,13 @@ html, body {
     font-size: 1.25rem;
     letter-spacing: .5px;
     line-height: 2.1rem;
+    text-align: center;
   }
 
-  .why-line {
+  #about-subtitle {
     margin: 1rem 0;
     padding: 1rem 15px;
-    font-size: 2.15rem;
-
+    font-size: 2rem;
   }
 
   .about-paragraph {
@@ -932,7 +1016,7 @@ html, body {
 
   /* Blog */
   .blog-section {
-    padding: 8rem 0;
+    padding: 6rem 0;
   }
 
   .blog-wrapper {
@@ -962,13 +1046,13 @@ html, body {
   }
 
   .blog-content p, .blog-content blockquote {
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin: 0 auto;
     text-align: justify;
   }
 
   .blog-more {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   /* Resume */
@@ -984,36 +1068,36 @@ html, body {
 
   /* Contact */
   .contact-section {
-    padding: 6rem 0 3rem 0;
+    padding: 4rem 0 1.5rem 0;
   }
 
   .contact-row {
-    flex-direction: column;
     padding: 3rem 0;
     justify-content: center;
     align-items: center;
   }
 
   .contact-row img {
-    height: 125px;
+    height: 100px;
   }
 
   .headshot {
-    margin: 0 auto 1rem auto;
+    margin: 0 .5rem;
+  }
+
+  .social-icons {
+    padding-left: 0;
   }
 
   .contact-text {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    justify-content: center;
   }
 
-  .learn-more {
-    font-size: 2rem;
-  }
-
-  #contact .fa {
+  #contact .fas, #contact .fab {
     padding: 0 .75rem;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: #000;
   }
 
@@ -1023,12 +1107,13 @@ html, body {
   }
 
   .footer-row {
+    flex-direction: column;
     text-align: center;
     width: 100%;
   }
 
   .footer-logo {
-    font-size: 2rem;
+    font-size: 1.25rem;
     padding: 0;
   }
 
@@ -1044,20 +1129,20 @@ html, body {
     text-decoration: none;
     color: #fff;
     line-height: 1.65;
-    font-size: .75rem;
+    font-size: .65rem;
     text-transform: uppercase;
-    padding-right: .75rem;
+    padding-right: .25rem;
   }
 
   .footer-nav ul li a:hover {
     color: #fff;
   }
 
-  #social {
+  /* #social {
     text-align: center;
     margin: 1rem 0;
     padding: 0;
-  }
+  } */
 
   .copyright {
     text-align: center;
@@ -1233,7 +1318,7 @@ html, body {
     margin-bottom: 2rem;
   }
 
-  .why-line {
+  #about-subtitle {
     margin: 2rem 0;
     padding: 1rem 15px;
     font-size: 2.75rem;
