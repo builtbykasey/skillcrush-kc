@@ -40,7 +40,7 @@ html, body {
 }
 
 .navbar-collapse {
-  background-color: white;
+  background-color: none;
 }
 
 .navbar-default {
@@ -785,10 +785,10 @@ html, body {
   }
 
   .hero h1 {
-    font-size: 2srem;
+    font-size: 2rem;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 4srem;
+    padding-top: 4rem;
   }
 
   .hero-front-end {
@@ -796,7 +796,7 @@ html, body {
   }
 
   .hero-developer {
-    margin: 5rem 0;
+    margin-top: 6rem;
   }
 
   .hero-skills {
