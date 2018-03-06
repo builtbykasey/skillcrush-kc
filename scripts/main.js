@@ -15,8 +15,8 @@ var $document = $(document),
 	fadeInDown = 'fadeInDown';
 
 $document.scroll(function() {
+  //user scrolled more than 100 pixels
   if ($document.scrollTop() >= 100) {
-    //user scrolled more than 100 pixels
     $element.addClass(navbarDefault).removeClass(navbarTransparent).addClass(fadeInDown);
   } else {
     $element.addClass(navbarTransparent).removeClass(navbarDefault).removeClass(fadeInDown);
