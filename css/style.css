@@ -149,7 +149,7 @@ html, body {
   font-weight: bold;
   padding-top: 8rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, .2);
-  letter-spacing: 1px;
+  letter-spacing: 0;
   text-align: center;
   margin: 0;
 }
@@ -778,10 +778,10 @@ html, body {
       padding: 0;
   }
 
-.navbar-default .navbar-nav > li > a {
-  padding: .25rem 0;
-  margin-left: 0;
-}
+  .navbar-default .navbar-nav > li > a {
+    padding: .25rem 0;
+    margin-left: 0;
+  }
 
   /* .navbar-transparent .navbar-brand {
     margin-top: .07rem;
