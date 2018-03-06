@@ -807,10 +807,12 @@ html, body {
 
   .hero-front-end {
     margin-bottom: 12rem;
+    letter-spacing: 0;
   }
 
   .hero-developer {
     margin-top: 8rem;
+    letter-spacing: 0;
   }
 
   .hero-skills {
