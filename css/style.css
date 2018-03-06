@@ -1186,9 +1186,9 @@ html, body {
 
   .navbar-default .navbar-nav > li > a {
     font-size: .8rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 1rem 0 0 0;
-    margin-left: 1.75rem;
+    margin-left: 1.5rem;
   }
 
   /* .navbar-transparent {
@@ -1232,6 +1232,10 @@ html, body {
   /* Headings */
   .section-heading {
     font-size: 3rem;
+  }
+
+  .referral {
+    font-size: 1.45rem;
   }
 
   /* Projects */
