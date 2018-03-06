@@ -856,13 +856,13 @@ html, body {
     padding: 3rem 1rem;
     background-color: #fff;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     border-bottom: 1px solid rgba(232,53,86,0.25);
   }
 
   .referrals-row.middle {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .referrals-row:last-child {
@@ -878,13 +878,14 @@ html, body {
     color: #000;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25rem;
+    text-align: center;
   }
 
   .ref-image {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 
   .ref-image img {
@@ -906,10 +907,8 @@ html, body {
     color: #61d1d5;
   }
 
-  .ref-relationship {
-    color: #000;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
+  .ref-relationship p {
+    margin: 0;
   }
 
   /* Projects */
